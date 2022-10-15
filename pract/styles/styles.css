@@ -10,12 +10,18 @@ main p {
     text-align: center;
 }
 
+nav {
+    padding: 25;
+}
+
 a {
     font-size: 3em;
+    padding: 25px;
 }
 
 body {
     text-align: center;
+    margin: 0;
 }
 
 h1 {
