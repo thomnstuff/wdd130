@@ -1,0 +1,98 @@
+body {
+    background-color: #AABD8C;
+}
+
+nav {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 100%;
+    display: flex;
+    background-color: #381D2A;
+    margin-bottom: 0%;
+    justify-content: space-around;
+}
+
+nav a {
+    font-size: 3em;
+    text-align: center;
+    color: #E7C24F;
+    text-decoration:none;
+    padding: 35px;
+}
+
+nav a:hover {
+    color: #C9C6BB;
+}
+
+.logo {
+    width: 550px;
+    height: 100px;
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(11,1fr);
+    grid-auto-rows:auto;
+    grid-gap: 10px;
+}
+.background {
+    background-color: #C9C6BB;
+    grid-column: 2/9;
+    grid-row: 1/25;
+    z-index: 1;
+}
+#pic {
+    border: 1px solid darkgreen;
+    width: 1000px;
+    height: 800px;
+    grid-column: 3/8;
+    grid-row: 1/25;
+    z-index: 2;
+    
+}
+.partone {
+    text-align: center;
+    border: solid 1px #381D2A;
+    font-size: x-large;
+    color:#381D2A;
+    opacity: 0.8;
+    background-color:#C9C6BB;
+    grid-column: 2/5;
+    grid-row: 10/25;
+    z-index: 3;
+}
+
+.parttwo {
+    text-align: center;
+    border: solid 1px #381D2A;
+    font-size: x-large;
+    color:#381D2A;
+    opacity: 0.8;
+    background-color: #C9C6BB;
+    grid-row: 10/25;
+    grid-column: 6/9;
+    z-index: 3;
+}
+footer {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    background-color: #381D2A;
+}
+footer p a {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1em;
+    color: #E7C24F;
+    text-decoration:none;
+    padding: 35px;
+}
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#pah1, #pah2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+    color: #E7C24F;
+    text-decoration:none;
+}
