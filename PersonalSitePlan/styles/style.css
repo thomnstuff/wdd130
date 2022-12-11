@@ -216,3 +216,30 @@ p {
     color: #E7C24F;
     text-decoration:none;
 }
+
+.alert {
+    grid-row: 22;
+    grid-column: 13/16;
+    z-index: 5;
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: black;
+    margin-bottom: 15px;
+  }
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: black;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: white;
+  }
