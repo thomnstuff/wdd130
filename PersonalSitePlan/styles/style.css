@@ -219,7 +219,7 @@ p {
 
 .alert {
     grid-row: 22;
-    grid-column: 13/16;
+    grid-column: 12/16;
     z-index: 5;
     padding: 20px;
     background-color: #d6827c; /* Red */
